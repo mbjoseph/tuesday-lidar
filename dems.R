@@ -1,6 +1,7 @@
 library(raster)
 library(rhdf5)
 library(rgdal)
+library(insol)
 
 # load digital terrain model
 dtm <- raster('../NEONdata/D17-California/TEAK/2013/lidar/TEAK_lidarDTM.tif')
